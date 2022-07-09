@@ -16,9 +16,9 @@ while True:
         print("\n".join(snacks))
 
         choice = int(input())
-        cfruit = choice - 1
+        csnack = choice - 1
 
-        chose = fruits[cfruit]
+        chose = snacks[csnack]
         print(chose + "\n")
         end = int(time.time())
         print(end - start)
